@@ -1,0 +1,121 @@
+@media screen and (max-width: 576px) {
+
+    .title_pic {
+        padding-left: 5%;
+        width: 300px;
+        height: 100px;
+    }
+
+    #dp_story {
+        margin: 50px 60px;
+    }
+
+    #dp_story p{
+        line-height: 24px;
+        font-size: 15px;
+    }
+
+    .hill {
+        margin-top: -30px;
+        height: 150px;
+    }
+
+    #menu_houses {
+        margin-top: 50px;
+    }    
+
+    h2 {
+        margin-top: 10px;
+        font-weight: bold;
+        color: rgb(96, 26, 27);
+        display: inline-block;
+        font-size: 22px;
+    }
+
+    .house_wapper {
+        display: flex;
+        margin: 0 20px;
+    }
+    
+    .house {
+        width: 300px;
+        height: 260px;
+    }
+    
+    .carousel-indicators{
+        display: none;
+    }
+    
+    .house_content {
+        display: none;
+    }
+    
+    .house_content_phone{
+        display: block;
+        margin: 20px 15px;
+        height: 300px;
+        color: #ffffff;
+    }
+
+    .house_content p{
+        font-size: 14px;
+        text-align: justify;
+    }
+    
+    .house_title_pic {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        margin-top: -18px;
+        opacity: 0.5;
+    }
+    
+    .house_content_pic {
+        display: none;
+    }
+
+    #menu_highlight {
+        margin-top: 50px;
+    }
+
+    .highlight_pic {
+        height: 100%;
+        width: 100%;
+        display: block;
+        margin-top: 20px;
+    }
+
+    #menu_music {
+        margin-top: 70px;
+    }
+
+    .video-wrapper{
+        width: 100%;
+    }
+    
+    .video-wrapper > iframe {
+        padding-left: 0px;
+        width:100%;
+        height: 100%; 
+    }
+    
+    #dp_music {
+        color: #ffffff;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .music_word {
+        display: none;
+    }
+
+    .music_word_phone{
+        display: block;
+        width: 340px;
+        margin: 30px 50px 0 50px;
+        position: relative;
+        right: 0;
+    }
+
+}

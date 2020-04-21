@@ -1,0 +1,141 @@
+body {
+    background-color: black;
+    font-family: 'Noto Serif TC', serif;
+    position: relative;
+}
+
+.title_pic {
+    margin-left: 5%;
+    width: 420px;
+    height: 120px;
+    opacity: 0.8;
+}
+
+#menu_about{
+    margin-top: 50px;
+}
+
+.about_wrapper{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#dp_about {
+    flex: 0 1 300px;
+    padding-top: 30px;
+    margin-left: 30px;
+    color: #ffffff;
+}
+
+.dp_about_word_phone{
+    display: none;
+}
+    
+.dp_about_word{  
+    animation: about_upup 1s linear;
+    transform: translateY(-15px);
+}
+
+@keyframes about_upup {
+from {
+    transform: translateY(0px);
+}
+
+to {
+    transform: translateY(-15px);
+}
+}
+
+.video-wrapper {
+    height: 300px;
+    width: 500px;
+}
+.video-wrapper > iframe {
+    flex:0 1 580px;
+    width:100%;
+    height: 100%; 
+}
+
+.dp_logo{
+    display:inline;
+    width: 100px;
+    height: 100px;
+    animation: about_show 1s linear;
+    margin-left: 500px;
+}
+
+footer {
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.5em;
+    opacity: 0.8;
+    margin-top: 30px;
+    display: block;
+}
+
+@keyframes about_show {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+    }
+
+
+@media screen and (max-width: 576px) {
+    
+
+    .title_pic {
+        padding-left: 5%;
+        width: 300px;
+        height: 100px;
+    }
+
+    
+    .about_wrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    #dp_about {
+        color: #ffffff;
+        margin: 0px 30px 0 30px;
+    }
+
+    .dp_about_word{
+        display: none;
+    }
+
+    .dp_about_word_phone{
+        display: block;
+    }
+
+    .video-wrapper{
+        width: 100%;
+    }
+    
+    .video-wrapper > iframe {
+        padding-left: 0px;
+        width:100%;
+        height: 100%; 
+    }
+
+    
+    .dp_logo{
+      display: none;
+    }
+
+    footer p{
+        margin-top: 0px;
+        font-size: 10px;
+    }
+
+
+    }

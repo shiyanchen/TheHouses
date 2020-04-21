@@ -1,0 +1,157 @@
+
+header {
+    background-color: rgba(0, 0, 0, 0);
+    height: 47px;
+    padding: 0 20px;
+    position: fixed;
+    top: 0px;
+    z-index:1;
+}
+
+#toggler {
+    display: none;
+}
+
+.menu_container {
+    display: block;
+    width: 25px;
+    height: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.menu_container span {
+    display: block;
+    height: 2px;
+    background-color: #ffffff;
+    position: relative;
+    transition: all .2s ease-in-out;
+    top: 0;
+}
+
+.menu_container span:nth-child(2) {
+    margin-top: 7px;
+}
+
+.menu_container span:nth-child(3) {
+    margin-top: 7px;
+}
+
+#toggler:checked+label .menu_container span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 4.5px;
+}
+
+#toggler:checked+label .menu_container span:nth-child(2) {
+    display: none;
+}
+
+
+#toggler:checked+label .menu_container span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: -4.5px;
+}
+
+ol{
+    margin: 10px 0 0 0px;
+}
+
+.dp_nav_items {
+    background-color: rgb(0, 0, 0, 0.8);
+    width: 230px;
+    height: calc(100vh - 44px);
+    color: #ffffff;
+    position: absolute;
+    top: 47px;
+    left: 0;
+    transform: scaleY(0);
+    transition: all .3s ease-in-out;
+    transform-origin: 50% 0;
+}
+
+#toggler:checked+label .dp_nav_items {
+    transform: scaleY(1);
+}
+
+.menu_word {
+    margin-left: 30px;
+    font-size: 1em;
+}
+
+.menu_game_word {
+    margin-left: 50px;
+    font-size: 0.9em;
+}
+
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+a:active {
+    color: #ffffff;
+}
+
+.dp_facebook{
+    width: 28px;
+    height: 28px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.dp_email{
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    vertical-align: bottom;
+}
+
+.dp_yt{
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    vertical-align: bottom;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    header{
+        z-index:1;
+    }
+    
+    .dp_nav_items {
+        background-color: rgb(0, 0, 0);
+        width: 100vh;
+    }
+
+    .menu_word {
+        margin-left: 70px;
+        font-size: 1em;
+    }
+    
+    .menu_game_word {
+        margin-left: 90px;
+        font-size: 0.9em;
+    }
+
+    .dp_facebook{
+        margin-left: 100px;
+    }
+
+}
