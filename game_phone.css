@@ -12,7 +12,7 @@
 
     #dp_story p{
         line-height: 24px;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .hill {
@@ -116,6 +116,7 @@
         margin: 30px 50px 0 50px;
         position: relative;
         right: 0;
+        font-size: 14px;
     }
 
 }
