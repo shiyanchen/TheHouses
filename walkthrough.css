@@ -1,0 +1,118 @@
+body {
+    background-color: black;
+    font-family: 'Noto Serif TC', serif;
+    position: relative;
+}
+
+
+h2 {
+    font-weight: bold;
+    color: rgb(96, 26, 27);
+    display: inline;
+}
+
+.title_pic {
+    margin-left: 5%;
+    width: 420px;
+    height: 120px;
+    opacity: 0.8;
+    position: fixed;
+}
+
+
+#menu_walkthrough {
+    margin-top: 50px;
+}
+
+
+#ch1{
+    color: #ffffff;
+    margin-left: 40%;
+    padding-top: 120px;
+}
+
+#ch2{
+    color: #ffffff;
+    padding-top: 120px;
+}
+
+#ch3{
+    color: #ffffff;
+    padding-top: 120px;
+}
+
+#ch4{
+    color: #ffffff;
+    padding-top: 120px;
+}
+
+#me{
+    color: #ffffff;
+    padding-top: 120px;
+}
+
+.wt_nav{
+    margin: 150px 0 0 130px;
+    position: fixed;
+    width: 200px;
+}
+
+
+.copyright_phone{
+    display: none;
+}
+
+.walkthrough_line{
+    height: 1px;
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+footer {
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.5em;
+    opacity: 0.8;
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width: 576px) {
+    h2 {
+        margin-top: 10px;
+        font-weight: bold;
+        color: rgb(96, 26, 27);
+        display: inline-block;
+        font-size: 22px;
+    }
+    
+    .title_pic {
+        padding-left: 5%;
+        width: 300px;
+        height: 100px;
+    }
+
+    .download_momo{
+        display: none;
+    }
+
+    .copyright{
+       display: none;
+    }
+    
+    .copyright_phone{
+        display: block;
+        color: #ffffff;
+        margin: 30px 15px 0 15px;
+        font-size: 14px;
+    }
+
+    .walkthrough_line_phone{
+        height: 1px;
+        width: 100px;
+        background-color: rgba(255, 255, 255, 0.5);
+    }    
+
+}
