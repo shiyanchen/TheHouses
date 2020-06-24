@@ -128,29 +128,28 @@ footer {
         display: block;
         color: #ffffff;
         font-size: 14px;
-        padding-top: -100px;
-        padding-top: 0px;
+        padding-top: 50px;
     }
     
     #ch3{
         display: block;
         color: #ffffff;
         font-size: 14px;
-        padding-top: 0px;
+        padding-top: 50px;
     }
     
     #ch4{
         display: block;
         color: #ffffff;
         font-size: 14px;
-        padding-top: 0px;
+        padding-top: 50px;
     }
     
     #me{
         display: block;
         color: #ffffff;
         font-size: 14px;
-        padding-top: 0px;
+        padding-top: 50px;
     }
 
 }
